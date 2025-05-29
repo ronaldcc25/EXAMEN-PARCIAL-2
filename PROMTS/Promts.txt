@@ -1,1 +1,8 @@
 # PROMTS USADOS:
+
+## PROMT 1:
+
+Tengo un problema sobre un simulador de torneo de tenis, para ello necesito que te enfoques para resolverlo en codigo java usando Callable, Future y ExecutorService, en caso de que quieras usar mas librerías procura que sean solo para el uso exclusivo ya sea para aleatoriedad, o ese tipo de cosas no uses una libreria que corrompa los metodos que usa Callable o Future, explicado esto te describo el problema.
+
+Lo que hay que realizar es un simulador un torneo empezando en las fases de eliminación(octavos de final) o mejor dicho donde participen 16 jugadores, en los cuales cada partido se juega al mejor de 3 sets, es decir, que el jugador que gane 2 sets pasa a la siguiente ronda (mencionar que el ganador de cada ronda se va a determinar en el programa aleatoriamente). Las rondas se juegan en simultaneo; y la siguiente ronda inicia cuando todos los partidos de la ronda anterior hayan culminado. tambien se debe ir presentando los resultados de cada una de las rondas, con los jugadores que se enfrentaron en el partido, el ganador de cada set y el ganador del partido que es el que pase a la siguiente ronda, hasta que se encuentre al ganador del torneo.
+
